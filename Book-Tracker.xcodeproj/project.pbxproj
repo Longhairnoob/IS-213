@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51474E6063352EA04C029246 /* Pods_Book_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E93D73D677DB7D6306F83C /* Pods_Book_Tracker.framework */; };
+		555DD27722A4258A000402CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555DD27622A4258A000402CF /* AppDelegate.swift */; };
+		555DD27922A4258A000402CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555DD27822A4258A000402CF /* ViewController.swift */; };
+		555DD27E22A4258B000402CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555DD27D22A4258B000402CF /* Assets.xcassets */; };
+		555DD28122A4258B000402CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555DD27F22A4258B000402CF /* LaunchScreen.storyboard */; };
+		55EBEB8222A425D2007E4536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EBEB8122A425D2007E4536 /* Main.storyboard */; };
+		55EBEB8722A42628007E4536 /* bookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB8422A42628007E4536 /* bookViewController.swift */; };
+		55EBEB8822A42628007E4536 /* ComposeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB8522A42628007E4536 /* ComposeController.swift */; };
+		55EBEB8922A42628007E4536 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB8622A42628007E4536 /* OverviewController.swift */; };
+		55EBEB8B22A426D7007E4536 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB8A22A426D7007E4536 /* BookCell.swift */; };
+		55EBEB9122A42845007E4536 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55EBEB9022A42845007E4536 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A5A357B587A590F945F5191 /* Pods-Book-Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book-Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Book-Tracker/Pods-Book-Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		41BD5B250522B3EFE7732FD1 /* Pods-Book-Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book-Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Book-Tracker/Pods-Book-Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		555DD27322A4258A000402CF /* Book-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book-Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		555DD27622A4258A000402CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		555DD27822A4258A000402CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		555DD27D22A4258B000402CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		555DD28022A4258B000402CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		555DD28222A4258B000402CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55EBEB8122A425D2007E4536 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		55EBEB8422A42628007E4536 /* bookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bookViewController.swift; sourceTree = "<group>"; };
+		55EBEB8522A42628007E4536 /* ComposeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeController.swift; sourceTree = "<group>"; };
+		55EBEB8622A42628007E4536 /* OverviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
+		55EBEB8A22A426D7007E4536 /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		55EBEB9022A42845007E4536 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E6E93D73D677DB7D6306F83C /* Pods_Book_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Book_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		555DD27022A4258A000402CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51474E6063352EA04C029246 /* Pods_Book_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066C80E363EDC9E50764296E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6E93D73D677DB7D6306F83C /* Pods_Book_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		555DD26A22A4258A000402CF = {
+			isa = PBXGroup;
+			children = (
+				555DD27522A4258A000402CF /* Book-Tracker */,
+				555DD27422A4258A000402CF /* Products */,
+				BDA38AA45C838561EB6CE796 /* Pods */,
+				066C80E363EDC9E50764296E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		555DD27422A4258A000402CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555DD27322A4258A000402CF /* Book-Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555DD27522A4258A000402CF /* Book-Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				55EBEB8322A4260C007E4536 /* Custom View Controllers */,
+				555DD27822A4258A000402CF /* ViewController.swift */,
+				555DD27622A4258A000402CF /* AppDelegate.swift */,
+				555DD27D22A4258B000402CF /* Assets.xcassets */,
+				55EBEB8A22A426D7007E4536 /* BookCell.swift */,
+				555DD27F22A4258B000402CF /* LaunchScreen.storyboard */,
+				55EBEB9022A42845007E4536 /* GoogleService-Info.plist */,
+				555DD28222A4258B000402CF /* Info.plist */,
+				55EBEB8122A425D2007E4536 /* Main.storyboard */,
+			);
+			path = "Book-Tracker";
+			sourceTree = "<group>";
+		};
+		55EBEB8322A4260C007E4536 /* Custom View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55EBEB8422A42628007E4536 /* bookViewController.swift */,
+				55EBEB8522A42628007E4536 /* ComposeController.swift */,
+				55EBEB8622A42628007E4536 /* OverviewController.swift */,
+			);
+			path = "Custom View Controllers";
+			sourceTree = "<group>";
+		};
+		BDA38AA45C838561EB6CE796 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A5A357B587A590F945F5191 /* Pods-Book-Tracker.debug.xcconfig */,
+				41BD5B250522B3EFE7732FD1 /* Pods-Book-Tracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		555DD27222A4258A000402CF /* Book-Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555DD28522A4258B000402CF /* Build configuration list for PBXNativeTarget "Book-Tracker" */;
+			buildPhases = (
+				D3927DC7DF7A7458DD0B520D /* [CP] Check Pods Manifest.lock */,
+				555DD26F22A4258A000402CF /* Sources */,
+				555DD27022A4258A000402CF /* Frameworks */,
+				555DD27122A4258A000402CF /* Resources */,
+				F551BB92C4EDE892CDC2D268 /* [CP] Embed Pods Frameworks */,
+				16E4B035B481210BF4E6B466 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Book-Tracker";
+			productName = test;
+			productReference = 555DD27322A4258A000402CF /* Book-Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		555DD26B22A4258A000402CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Anders Berntsen";
+				TargetAttributes = {
+					555DD27222A4258A000402CF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 555DD26E22A4258A000402CF /* Build configuration list for PBXProject "Book-Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 555DD26A22A4258A000402CF;
+			productRefGroup = 555DD27422A4258A000402CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555DD27222A4258A000402CF /* Book-Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		555DD27122A4258A000402CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555DD28122A4258B000402CF /* LaunchScreen.storyboard in Resources */,
+				555DD27E22A4258B000402CF /* Assets.xcassets in Resources */,
+				55EBEB8222A425D2007E4536 /* Main.storyboard in Resources */,
+				55EBEB9122A42845007E4536 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16E4B035B481210BF4E6B466 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Book-Tracker/Pods-Book-Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3927DC7DF7A7458DD0B520D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Book-Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F551BB92C4EDE892CDC2D268 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Book-Tracker/Pods-Book-Tracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Book-Tracker/Pods-Book-Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		555DD26F22A4258A000402CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55EBEB8B22A426D7007E4536 /* BookCell.swift in Sources */,
+				55EBEB8822A42628007E4536 /* ComposeController.swift in Sources */,
+				555DD27922A4258A000402CF /* ViewController.swift in Sources */,
+				555DD27722A4258A000402CF /* AppDelegate.swift in Sources */,
+				55EBEB8922A42628007E4536 /* OverviewController.swift in Sources */,
+				55EBEB8722A42628007E4536 /* bookViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		555DD27F22A4258B000402CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555DD28022A4258B000402CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		555DD28322A4258B000402CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		555DD28422A4258B000402CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		555DD28622A4258B000402CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5A357B587A590F945F5191 /* Pods-Book-Tracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KV4P7367J3;
+				INFOPLIST_FILE = "$(SRCROOT)/Book-Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Longhairnoob.Book-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555DD28722A4258B000402CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BD5B250522B3EFE7732FD1 /* Pods-Book-Tracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KV4P7367J3;
+				INFOPLIST_FILE = "$(SRCROOT)/Book-Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Longhairnoob.Book-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		555DD26E22A4258A000402CF /* Build configuration list for PBXProject "Book-Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555DD28322A4258B000402CF /* Debug */,
+				555DD28422A4258B000402CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555DD28522A4258B000402CF /* Build configuration list for PBXNativeTarget "Book-Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555DD28622A4258B000402CF /* Debug */,
+				555DD28722A4258B000402CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 555DD26B22A4258A000402CF /* Project object */;
+}
